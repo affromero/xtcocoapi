@@ -1,0 +1,13 @@
+[tool.poetry]
+ name = "xtcocotools"
+ version = "0.1.0"
+ description = ""
+ authors = ["jin-s13"]
+ readme = "README.md"
+ packages = [{include = "xtcocotools"}]
+
+ [tool.poetry.dependencies]
+
+ [build-system]
+ requires = ["poetry-core"]
+ build-backend = "poetry.core.masonry.api"
